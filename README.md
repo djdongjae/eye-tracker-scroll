@@ -43,12 +43,6 @@ pip install -r requirements.txt
 python eye_tracking_scroll.py
 ```
 
-### 고급 버전 실행 (GUI 설정 포함)
-
-```bash
-python advanced_eye_tracker.py
-```
-
 ### 테스트 페이지 열기
 
 ```bash
@@ -93,12 +87,6 @@ cursor-tutorial/
 - `detect_gaze_direction()`: 시선 방향 감지
 - `scroll_based_on_gaze()`: 시선에 따른 스크롤 제어
 - `run()`: 메인 실행 루프
-
-### AdvancedEyeTrackingScroll (고급 버전)
-- `setup_gui()`: GUI 설정 패널 생성
-- `load_config()` / `save_config()`: 설정 파일 관리
-- `start_tracking()` / `stop_tracking()`: 추적 제어
-- `run_tracking()`: 별도 스레드에서 추적 실행
 
 ## 🎯 시선 감지 알고리즘
 
